@@ -34,4 +34,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./ build reactclass2.surge.sh --token ${{secrets.SURGETOKEN}}
+      run: surge ./ build low-orange.surge.sh --token ${{secrets.SURGETOKEN}}
