@@ -26,8 +26,7 @@ jobs:
         version: 12
         
 
-    - uses: Borales/actions-yarn@v2.1.0
-      with:
+
         # Yarn command
         cmd: install # npm install/ yarn install
     
