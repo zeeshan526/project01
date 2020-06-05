@@ -26,6 +26,12 @@ jobs:
         version: 12
         
 
+
+        # Yarn command
+        cmd: install # npm install/ yarn install
+    
+    - name: Creating build
+      run: npm build
       
     
     - name: installing surge  
