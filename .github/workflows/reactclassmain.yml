@@ -31,7 +31,7 @@ jobs:
         cmd: install # npm install/ yarn install
     
     - name: Creating build
-      run: yarn build
+      uses: yarn build
       with:
         version: 1.22.4
     
