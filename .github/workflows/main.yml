@@ -34,7 +34,7 @@ jobs:
     # - name: Creating build
     #   run: yarn build
     -name: Install nodemon
-      run: nodemon
+     run: nodemon
       
     
     - name: installing surge  
