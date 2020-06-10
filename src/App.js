@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-HELLO ZEESHAN malik yarn!!!
 Successfully Deploying A React Project!!!
     </div>
   );
