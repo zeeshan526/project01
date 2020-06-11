@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-Successfully Deploying A React Project!!!
+    <div>
+Successfully Deploying A React Project!!!!
     </div>
   );
 }
