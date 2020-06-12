@@ -19,7 +19,7 @@ function App() {
     <h1>Have a good {isMorning?'Morning':'Night'}</h1>
       <Room Counter={Count}/>
       <br/>
-      <button onClick={()=> setCount(Count+1)}>update state</button>
+      <button onClick={()=> setCount(Count+2)}>update state</button>
       <button onClick={()=>setMorning(!isMorning)}>update day</button>
     </div>
   );
